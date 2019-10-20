@@ -1,7 +1,8 @@
 # Readme
 
+Liot C operates similarly to [Liot R](https://github.com/airgap/Liot-R) but runs entirely in memory and uses a complex network nodal linking model.
 
-## Checklist
+## Development Checklist
 
 - [ ] Nodes
     - [x] Ingest
