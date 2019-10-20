@@ -11,8 +11,9 @@ export class Network {
     // Holds anything listening for data flow
     public listeners: Listener[] = [];
 
-    constructor(...nodes: Node[]) {
-        this.addNodes(...nodes);
+    // Network can be initialized with predetermined nodes
+    constructor(...nodesAndListeners: (Node | Listener)[]) {
+        nodesAndListeners.forEach(item => (item instanceof Node ? this.addNode : this.addListener)(item));
     }
 
     // Refresh any nodes and listeners chained to a node
@@ -48,6 +49,7 @@ export class Network {
             .map(n => [n, ...this.searchForReferrersTo(n.id)]));
     };
 
+    // Flatten a multidimensional array into a one dimension
     flatten: (array: any[]) => any[] =
              (array: any[]) => {
         let flattened: any[] = [];

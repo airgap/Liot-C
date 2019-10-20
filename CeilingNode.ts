@@ -8,6 +8,7 @@ export class CeilingNode extends LogicNode {
     Value
      */
     descriptor = (n: number) => 'Value';
+
     constructor(...values: any[]) {
         super();
         this.sources = values;

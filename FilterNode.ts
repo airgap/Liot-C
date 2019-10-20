@@ -1,6 +1,9 @@
 import {LogicNode} from "./LogicNode";
 import {Node} from "./Node";
 
+/*
+Work in progress
+ */
 export class FilterNode extends LogicNode {
     operator = 'Filter';
     filter: any;

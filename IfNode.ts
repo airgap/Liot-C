@@ -16,6 +16,7 @@ export class IfNode extends LogicNode {
         const [c, t, e] = this.sources.map(resolver);
         return c ? t : e;
     };
+
     constructor(ifCondition: (string | Node), ifThen: (string | Node), ifElse: (string | Node)) {
         super();
 
