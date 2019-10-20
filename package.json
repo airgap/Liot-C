@@ -1,0 +1,20 @@
+{
+  "name": "liot-c",
+  "version": "0.0.3",
+  "description": "Node-based network flow controller",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "airgap",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.8",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "math-expression-evaluator": "^1.2.17"
+  }
+}

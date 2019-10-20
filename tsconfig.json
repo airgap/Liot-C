@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "target": "es2019",
+    "lib": ["es2019"],
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests"
+  ]
+}

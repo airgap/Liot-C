@@ -1,0 +1,77 @@
+# Readme
+
+
+## Checklist
+
+- [ ] Nodes
+    - [x] Ingest
+        - [x] Implemented
+        - [x] Tested
+    - [ ] Logic Nodes
+        - [x] Branching Operators
+            - [x] IfNode
+                - [x] Implemented
+                - [x] Tested
+        - [ ] Binary Operators
+            - [ ] And
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Or
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Nand
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Nor
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Equals
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Less Than
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Less Than Or Equal To
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] More Than
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] More Than Or Equal To
+                - [x] Implemented
+                - [ ] Tested
+        - [ ] Mathematical Operators
+            - [x] Complex Math
+                - [x] Implemented
+                - [x] Tested
+            - [ ] Add
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Divide
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Exponent
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Multiply
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Round
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Floor
+                - [x] Implemented
+                - [ ] Tested
+            - [ ] Ceiling
+                - [x] Implemented
+                - [ ] Tested
+        - [ ] Filter Node
+            - [ ] Implemented
+            - [ ] Tested
+- [x] Networks
+    - [x] Ephemeral
+        - [x] Implemented
+        - [x] Tested
+- [x] Listeners
+    - [x] Implemented
+    - [x] Tested
